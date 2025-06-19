@@ -20,7 +20,7 @@ public class HomeController {
 
     @Autowired
     private UserService userService;
-//try jenkin
+//try jenkins
 
     @GetMapping("/users")
     public List<User> getUser() {
